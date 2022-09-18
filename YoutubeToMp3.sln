@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeToMp3.Web", "YoutubeToMp3.Web\YoutubeToMp3.Web.csproj", "{2F39C656-9B69-49DD-A64B-6BF40A4FA359}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Web", "1.Web", "{989435C1-B388-4A50-BBA5-25646C4D7F75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{C4BE401E-7F0F-481F-BED0-6B95B7FE153D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Core", "3.Core", "{7B546575-A13F-4717-BC96-6F48E5DE730F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{79671E72-A000-460E-95D1-5FA2C42D319A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeToMp3.Application", "YoutubeToMp3.Application\YoutubeToMp3.Application.csproj", "{249E1966-6F16-456F-9EF7-00B13FCF5ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeToMp3.Core", "YoutubeToMp3.Core\YoutubeToMp3.Core.csproj", "{811A7471-2AB9-436E-B4BF-7B0893682D3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeToMp3.Infrastructure", "YoutubeToMp3.Infrastructure\YoutubeToMp3.Infrastructure.csproj", "{F905B367-E072-4EBF-89E7-E3DD01ED11A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Tests", "5.Tests", "{C8BDD0B1-DAE8-403C-81FB-C8EA042039A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeToMp3.UnityTests", "YoutubeToMp3.UnityTests\YoutubeToMp3.UnityTests.csproj", "{43F49CCD-EE44-4E9D-B0CE-1AB7D49F27D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F39C656-9B69-49DD-A64B-6BF40A4FA359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F39C656-9B69-49DD-A64B-6BF40A4FA359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F39C656-9B69-49DD-A64B-6BF40A4FA359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F39C656-9B69-49DD-A64B-6BF40A4FA359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249E1966-6F16-456F-9EF7-00B13FCF5ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249E1966-6F16-456F-9EF7-00B13FCF5ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249E1966-6F16-456F-9EF7-00B13FCF5ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249E1966-6F16-456F-9EF7-00B13FCF5ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811A7471-2AB9-436E-B4BF-7B0893682D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811A7471-2AB9-436E-B4BF-7B0893682D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811A7471-2AB9-436E-B4BF-7B0893682D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811A7471-2AB9-436E-B4BF-7B0893682D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F905B367-E072-4EBF-89E7-E3DD01ED11A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F905B367-E072-4EBF-89E7-E3DD01ED11A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F905B367-E072-4EBF-89E7-E3DD01ED11A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F905B367-E072-4EBF-89E7-E3DD01ED11A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F49CCD-EE44-4E9D-B0CE-1AB7D49F27D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F49CCD-EE44-4E9D-B0CE-1AB7D49F27D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F49CCD-EE44-4E9D-B0CE-1AB7D49F27D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F49CCD-EE44-4E9D-B0CE-1AB7D49F27D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F39C656-9B69-49DD-A64B-6BF40A4FA359} = {989435C1-B388-4A50-BBA5-25646C4D7F75}
+		{249E1966-6F16-456F-9EF7-00B13FCF5ADC} = {C4BE401E-7F0F-481F-BED0-6B95B7FE153D}
+		{811A7471-2AB9-436E-B4BF-7B0893682D3E} = {7B546575-A13F-4717-BC96-6F48E5DE730F}
+		{F905B367-E072-4EBF-89E7-E3DD01ED11A8} = {79671E72-A000-460E-95D1-5FA2C42D319A}
+		{43F49CCD-EE44-4E9D-B0CE-1AB7D49F27D6} = {C8BDD0B1-DAE8-403C-81FB-C8EA042039A1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {303E604F-BD48-46D7-86BF-466EFFAEC251}
+	EndGlobalSection
+EndGlobal
